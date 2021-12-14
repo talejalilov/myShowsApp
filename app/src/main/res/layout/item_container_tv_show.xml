@@ -50,7 +50,7 @@
             android:layout_marginStart="@dimen/_8sdp"
             android:layout_marginTop="@dimen/_20sdp"
             android:layout_marginEnd="@dimen/_8sdp"
-            android:fontFamily="@font/ubuntu_bold"
+            android:fontFamily="@font/font"
             android:includeFontPadding="false"
             android:textColor="#CBD5ED"
             android:textSize="@dimen/_13sdp"

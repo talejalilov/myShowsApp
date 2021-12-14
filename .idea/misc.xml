@@ -6,10 +6,13 @@
         <entry key="..\:/Android Studio/MyShowsApp/app/src/main/res/drawable-v24/background_tv_show.xml" value="0.31666666666666665" />
         <entry key="..\:/Android Studio/MyShowsApp/app/src/main/res/drawable-v24/ic_watchlist.xml" value="0.2046875" />
         <entry key="..\:/Android Studio/MyShowsApp/app/src/main/res/drawable/description_background.xml" value="0.31666666666666665" />
+        <entry key="..\:/Android Studio/MyShowsApp/app/src/main/res/layout-sw600dp/activity_information.xml" value="0.35104166666666664" />
         <entry key="..\:/Android Studio/MyShowsApp/app/src/main/res/layout-sw600dp/activity_main.xml" value="0.25" />
         <entry key="..\:/Android Studio/MyShowsApp/app/src/main/res/layout-sw600dp/activity_search.xml" value="0.22" />
         <entry key="..\:/Android Studio/MyShowsApp/app/src/main/res/layout-sw600dp/activity_tv_show_detail.xml" value="0.2" />
         <entry key="..\:/Android Studio/MyShowsApp/app/src/main/res/layout-sw600dp/activity_whatch_list.xml" value="0.25" />
+        <entry key="..\:/Android Studio/MyShowsApp/app/src/main/res/layout-sw600dp/fragment_first.xml" value="0.35104166666666664" />
+        <entry key="..\:/Android Studio/MyShowsApp/app/src/main/res/layout-sw600dp/fragment_second.xml" value="0.35104166666666664" />
         <entry key="..\:/Android Studio/MyShowsApp/app/src/main/res/layout-sw600dp/item_container_episode.xml" value="0.26328125" />
         <entry key="..\:/Android Studio/MyShowsApp/app/src/main/res/layout-sw600dp/item_container_tv_show.xml" value="0.26328125" />
         <entry key="..\:/Android Studio/MyShowsApp/app/src/main/res/layout-sw600dp/layout_episodes_bottom_sheet.xml" value="0.26328125" />

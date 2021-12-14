@@ -27,7 +27,7 @@
                 android:layout_marginEnd="@dimen/_8sdp"
                 android:layout_weight="1"
                 android:ellipsize="end"
-                android:fontFamily="@font/ubuntu_bold"
+                android:fontFamily="@font/font"
                 android:includeFontPadding="false"
                 android:maxLines="1"
                 android:textColor="#ffffff"

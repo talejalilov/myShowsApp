@@ -28,7 +28,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:fontFamily="@font/ubuntu_bold"
+            android:fontFamily="@font/font"
             android:text="@{title}"
             android:textColor="#ffffff"
             android:textSize="@dimen/_13sdp"/>
