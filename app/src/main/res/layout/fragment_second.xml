@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#1e2746"
+    android:gravity="center|top"
+    tools:context=".fragments.SecondFragment">
+
+<!--    <TextView-->
+
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:text="I am Emre, I have gained experience in many areas of software, I am studying at Yaşar University, faculty of computer science. Good luck to all."-->
+<!--        android:gravity="center"-->
+<!--        android:textColor="@color/textColor"-->
+<!--        android:textSize="@dimen/_32sdp"-->
+<!--        android:fontFamily="@font/ubuntu_bold"-->
+
+<!--        />-->
+
+    <com.makeramen.roundedimageview.RoundedImageView
+        android:id="@+id/imageView"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_margin="@dimen/_15sdp"
+        android:gravity="center"
+        android:src="@drawable/photo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:riv_corner_radius="@dimen/_300sdp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:padding="@dimen/_8sdp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:background="@drawable/description_background"
+        android:text="Emre Bağlayıcı"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_23sdp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/_8sdp"
+        android:layout_marginTop="10dp"
+        android:text="Yasar University"
+        android:background="@drawable/description_background"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_18sdp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_10sdp"
+        android:background="@drawable/description_background"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:orientation="vertical"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        >
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Description"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_18sdp"
+            android:layout_marginLeft="@dimen/_15sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="• Java\n
+• Android Studio\n
+• Databases: SQL / Room Persistence, Realm\n
+• Firebase Cloud Messaging, Database, Remote Config\n
+• Material Design\n
+• REST / JSON / XML\n
+• Retrofit 2, RxJava\n
+• MVVM;"
+            android:textColor="@color/white"
+            android:layout_marginLeft="@dimen/_15sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            >
+
+
+        </TextView>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

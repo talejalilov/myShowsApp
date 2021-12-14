@@ -93,7 +93,7 @@
                     android:padding="@dimen/_8sdp"
                     app:layout_constraintBottom_toBottomOf="@+id/viewFadingEdge"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toEndOf="@+id/imageTvShow"
+                    app:layout_constraintStart_toEndOf="@+id/imageTVShow"
                     />
 
 
@@ -332,22 +332,21 @@
                 app:layout_constraintTop_toBottomOf="@+id/layoutMisc"/>
 
                 <com.google.android.material.button.MaterialButton
-                    android:id="@+id/buttonWebsite"
-                    style="@style/myButton"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
+                    android:id="@+id/buttonWebsite"
                     android:layout_margin="@dimen/_8sdp"
                     android:fontFamily="@font/ubuntu_medium"
                     android:includeFontPadding="false"
                     android:text="@string/website"
-                    android:visibility="gone"
                     android:textSize="@dimen/_12sdp"
+                    android:visibility="gone"
                     app:backgroundTint="#0097fb"
+                    app:cornerRadius="@dimen/_6sdp"
                     app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toStartOf="@+id/buttonEpisodes"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/viewDivider2"
-                    app:layout_constraintVertical_bias="0.2" />
+                    app:layout_constraintEnd_toStartOf="@+id/buttonEpisodes"
+                    app:layout_constraintTop_toBottomOf="@+id/viewDivider2"/>
 
                 <com.google.android.material.button.MaterialButton
                     android:layout_width="0dp"

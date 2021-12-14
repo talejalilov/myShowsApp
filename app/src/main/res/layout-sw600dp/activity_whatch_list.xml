@@ -5,13 +5,9 @@
 
     <data>
 
-        <variable
-            name="isLoading"
-            type="Boolean" />
-
-        <variable
-            name="isLoadingMore"
-            type="Boolean" />
+         <variable
+             name="isLoading"
+             type="Boolean" />
 
         <import type="android.view.View"/>
     </data>
@@ -19,8 +15,9 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:animateLayoutChanges="true"
         android:background="#141A31"
-        tools:context=".activities.SearchActivity">
+        tools:context=".activities.WatchListActivity">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -40,67 +37,41 @@
                 android:src="@drawable/ic_back"
                 app:tint="#ffffff"/>
 
-            <EditText
-                android:id="@+id/inputSearch"
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
                 android:layout_marginStart="@dimen/_8sdp"
                 android:layout_marginEnd="@dimen/_8sdp"
-                android:layout_weight="1"
-                android:background="@null"
-                android:fontFamily="@font/ubuntu_regular"
-                android:hint="@string/search_tv_show"
-                android:imeOptions="actionDone"
-                android:importantForAutofill="no"
+                android:ellipsize="end"
+                android:fontFamily="@font/ubuntu_bold"
                 android:includeFontPadding="false"
-                android:inputType="text"
+                android:maxLines="1"
+                android:text="@string/watchlist"
                 android:textColor="#ffffff"
-                android:textColorHint="#4a5b82"
-                android:textSize="@dimen/_13sdp"
-                />
+                android:textSize="@dimen/_14sdp"/>
 
-            <ImageView
-                android:layout_width="@dimen/_24sdp"
-                android:layout_height="@dimen/_24sdp"
-                android:id="@+id/imageSearch"
-                android:contentDescription="@string/app_name"
-                android:padding="@dimen/_2sdp"
-                android:src="@drawable/ic_search"
-                app:tint="#ffffff"/>
 
         </LinearLayout>
 
         <androidx.recyclerview.widget.RecyclerView
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:id="@+id/tvShowRecyclerView"
+            android:id="@+id/watchListRecyclerWiew"
             android:clipToPadding="false"
             android:orientation="vertical"
-            android:paddingStart="@dimen/_4sdp"
-            android:paddingTop="@dimen/_4sdp"
-            android:paddingEnd="@dimen/_4sdp"
-            android:paddingBottom="@dimen/_45sdp"
+            android:padding="@dimen/_4sdp"
+            android:visibility="gone"
             app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/layoutHeader"/>
 
         <ProgressBar
-            android:id="@+id/progressBar2"
             android:layout_width="@dimen/_25sdp"
             android:layout_height="@dimen/_25sdp"
-            android:layout_marginTop="@dimen/_20sdp"
-            android:visibility="@{isLoading ? View.VISIBLE :View.GONE, default=gone}"
+            android:visibility="@{isLoading ? View.VISIBLE : View.GONE, default  =gone}"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/layoutHeader" />
-
-        <ProgressBar
-            android:layout_width="@dimen/_25sdp"
-            android:layout_height="@dimen/_25sdp"
-            android:visibility="@{isLoadingMore ? View.VISIBLE :View.GONE, default=gone}"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent" />
+            app:layout_constraintTop_toBottomOf="@+id/layoutHeader"/>
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>

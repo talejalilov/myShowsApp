@@ -19,50 +19,45 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#141A31"
-        tools:context=".activities.SearchActivity">
+        android:background="#1e2746"
+        tools:context=".activities.MainActivity">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="?actionBarSize"
             android:id="@+id/layoutHeader"
             android:background="#081029"
-            android:gravity="center_vertical"
             android:orientation="horizontal"
-            app:layout_constraintTop_toTopOf="parent"
-            >
+            android:gravity="center"
+            app:layout_constraintTop_toTopOf="parent">
 
-            <ImageView
-                android:layout_width="@dimen/_24sdp"
-                android:layout_height="@dimen/_24sdp"
-                android:id="@+id/imageBack"
-                android:contentDescription="@string/app_name"
-                android:src="@drawable/ic_back"
-                app:tint="#ffffff"/>
-
-            <EditText
-                android:id="@+id/inputSearch"
+            <TextView
                 android:layout_width="0dp"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ellipsize="end"
                 android:layout_marginStart="@dimen/_8sdp"
                 android:layout_marginEnd="@dimen/_8sdp"
-                android:layout_weight="1"
-                android:background="@null"
-                android:fontFamily="@font/ubuntu_regular"
-                android:hint="@string/search_tv_show"
-                android:imeOptions="actionDone"
-                android:importantForAutofill="no"
+                android:fontFamily="@font/ubuntu_bold"
                 android:includeFontPadding="false"
-                android:inputType="text"
-                android:textColor="#ffffff"
-                android:textColorHint="#4a5b82"
-                android:textSize="@dimen/_13sdp"
-                />
+                android:maxLines="1"
+                android:textSize="@dimen/_20sdp"
+                android:text="@string/tv_shows_most_popular"
+                android:textColor="#ffffff"/>
 
             <ImageView
                 android:layout_width="@dimen/_24sdp"
                 android:layout_height="@dimen/_24sdp"
+                android:layout_marginEnd="@dimen/_8sdp"
+                android:contentDescription="@string/app_name"
+                android:id="@+id/imageWatchlist"
+                android:src="@drawable/ic_watchlist"
+                app:tint="#ffffff"/>
+            <ImageView
                 android:id="@+id/imageSearch"
+                android:layout_width="@dimen/_24sdp"
+                android:layout_height="@dimen/_24sdp"
+                android:layout_marginEnd="@dimen/_8sdp"
                 android:contentDescription="@string/app_name"
                 android:padding="@dimen/_2sdp"
                 android:src="@drawable/ic_search"
@@ -73,16 +68,18 @@
         <androidx.recyclerview.widget.RecyclerView
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:id="@+id/tvShowRecyclerView"
+            android:id="@+id/tvShowRecycler"
             android:clipToPadding="false"
             android:orientation="vertical"
-            android:paddingStart="@dimen/_4sdp"
-            android:paddingTop="@dimen/_4sdp"
-            android:paddingEnd="@dimen/_4sdp"
             android:paddingBottom="@dimen/_45sdp"
+            android:paddingTop="@dimen/_4sdp"
+            android:paddingStart="@dimen/_4sdp"
+            android:paddingEnd="@dimen/_4sdp"
             app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/layoutHeader"/>
+            app:layout_constraintTop_toBottomOf="@id/layoutHeader"
+            />
+
 
         <ProgressBar
             android:id="@+id/progressBar2"
@@ -101,7 +98,6 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent" />
-
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>

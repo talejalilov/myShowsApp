@@ -23,7 +23,7 @@ public class TVShowsResponse {
         return totalPages;
     }
 
-    public List<TVShow> getTvShows() {
+    public List<TVShow>getTvShows() {
         return tvShows;
     }
 }

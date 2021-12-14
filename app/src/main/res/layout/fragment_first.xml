@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/fragment_container2"
+    android:background="#1e2746"
+    tools:context=".fragments.FirstFragment">
+
+<!--    <TextView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:text="@string/the_purpose_of_the_application_is_to_draw_data_from_the_rest_api_aligning_the_incoming_data_to_display_the_activity_on_the_screen_according_to_the_life_cycle"-->
+<!--        android:gravity="center"-->
+<!--        android:textColor="@color/textColor"-->
+<!--        android:textSize="@dimen/_32sdp"-->
+<!--        android:fontFamily="@font/ubuntu_bold"-->
+
+<!--        />-->
+
+    <com.makeramen.roundedimageview.RoundedImageView
+        android:id="@+id/roundedImageView"
+        android:layout_width="@dimen/_100sdp"
+        android:layout_height="@dimen/_100sdp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/ic_logo_show"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/_50sdp"
+        android:layout_marginTop="50dp"
+        android:text="Application Name: My Shows App"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_20sdp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/roundedImageView" />
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_150sdp"
+        android:layout_margin="@dimen/_10sdp"
+        android:background="@drawable/description_background"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_15sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:text="Description"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_20sdp" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_15sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:textSize="@dimen/_15sdp"
+            android:text="The interface is easy to work with, and the videos stream smoothly. You don't have to log in to watch movies and TV shows, but the option is there if you need it."
+            android:textColor="@color/white">
+
+
+        </TextView>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

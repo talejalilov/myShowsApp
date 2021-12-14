@@ -8,4 +8,7 @@
     <string name="episodes">Episodes</string>
     <string name="search_tv_show">Search TV Show</string>
     <string name="watchlist">WatchList</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="the_purpose_of_the_application_is_to_draw_data_from_the_rest_api_aligning_the_incoming_data_to_display_the_activity_on_the_screen_according_to_the_life_cycle">The purpose of the application is to draw data from the Rest api, aligning the incoming data - to display the activity on the screen according to the life cycle.</string>
 </resources>

@@ -39,6 +39,8 @@ public class MainActivity extends AppCompatActivity implements TVShowListener {
         getMostPopularTVShows();
         doInitialization();
 
+
+
     }
 
     private void doInitialization() {
@@ -61,6 +63,7 @@ public class MainActivity extends AppCompatActivity implements TVShowListener {
         });
         activityMainBinding.imageWatchlist.setOnClickListener(v -> startActivity(new Intent(getApplicationContext(), WatchListActivity.class)));
         activityMainBinding.imageSearch.setOnClickListener(v -> startActivity(new Intent(MainActivity.this,SearchActivity.class)));
+        activityMainBinding.informationBtn.setOnClickListener(v -> startActivity(new Intent(MainActivity.this, InformationActivity.class)));
         getMostPopularTVShows();
     }
 
@@ -75,6 +78,7 @@ public class MainActivity extends AppCompatActivity implements TVShowListener {
                     tvShows.addAll(mostPopularTVShowsResponse.getTvShows());
                     //burda da elavə etdiyini gösterir digər vievvları
                     tvShowsAdapter.notifyItemRangeInserted(oldCount, tvShows.size());
+
                 }
             }
                 }
@@ -105,8 +109,4 @@ public class MainActivity extends AppCompatActivity implements TVShowListener {
         startActivity(intent);
 
     }
-
-
-
-
 }

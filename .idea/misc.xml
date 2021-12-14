@@ -3,16 +3,32 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Android Studio/MyShowsApp/app/src/main/res/drawable-v24/background_tv_show.xml" value="0.31666666666666665" />
         <entry key="..\:/Android Studio/MyShowsApp/app/src/main/res/drawable-v24/ic_watchlist.xml" value="0.2046875" />
-        <entry key="..\:/Android Studio/MyShowsApp/app/src/main/res/layout-sw600dp/activity_search.xml" value="0.11576354679802955" />
-        <entry key="..\:/Android Studio/MyShowsApp/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Android Studio/MyShowsApp/app/src/main/res/drawable/description_background.xml" value="0.31666666666666665" />
+        <entry key="..\:/Android Studio/MyShowsApp/app/src/main/res/layout-sw600dp/activity_main.xml" value="0.25" />
+        <entry key="..\:/Android Studio/MyShowsApp/app/src/main/res/layout-sw600dp/activity_search.xml" value="0.22" />
+        <entry key="..\:/Android Studio/MyShowsApp/app/src/main/res/layout-sw600dp/activity_tv_show_detail.xml" value="0.2" />
+        <entry key="..\:/Android Studio/MyShowsApp/app/src/main/res/layout-sw600dp/activity_whatch_list.xml" value="0.25" />
+        <entry key="..\:/Android Studio/MyShowsApp/app/src/main/res/layout-sw600dp/item_container_episode.xml" value="0.26328125" />
+        <entry key="..\:/Android Studio/MyShowsApp/app/src/main/res/layout-sw600dp/item_container_tv_show.xml" value="0.26328125" />
+        <entry key="..\:/Android Studio/MyShowsApp/app/src/main/res/layout-sw600dp/layout_episodes_bottom_sheet.xml" value="0.26328125" />
+        <entry key="..\:/Android Studio/MyShowsApp/app/src/main/res/layout-sw600dp/page_2.xml" value="0.15055418719211822" />
+        <entry key="..\:/Android Studio/MyShowsApp/app/src/main/res/layout-sw600dp/page_3.xml" value="0.15055418719211822" />
+        <entry key="..\:/Android Studio/MyShowsApp/app/src/main/res/layout/activity_information.xml" value="0.25" />
+        <entry key="..\:/Android Studio/MyShowsApp/app/src/main/res/layout/activity_main.xml" value="0.22" />
         <entry key="..\:/Android Studio/MyShowsApp/app/src/main/res/layout/activity_search.xml" value="0.25" />
-        <entry key="..\:/Android Studio/MyShowsApp/app/src/main/res/layout/activity_tv_show_detail.xml" value="0.33" />
-        <entry key="..\:/Android Studio/MyShowsApp/app/src/main/res/layout/activity_whatch_list.xml" value="0.25" />
+        <entry key="..\:/Android Studio/MyShowsApp/app/src/main/res/layout/activity_tv_show_detail.xml" value="0.22" />
+        <entry key="..\:/Android Studio/MyShowsApp/app/src/main/res/layout/activity_whatch_list.xml" value="0.18" />
+        <entry key="..\:/Android Studio/MyShowsApp/app/src/main/res/layout/fragment_first.xml" value="0.22146739130434784" />
+        <entry key="..\:/Android Studio/MyShowsApp/app/src/main/res/layout/fragment_second.xml" value="0.25" />
         <entry key="..\:/Android Studio/MyShowsApp/app/src/main/res/layout/item_container_episode.xml" value="0.35104166666666664" />
-        <entry key="..\:/Android Studio/MyShowsApp/app/src/main/res/layout/item_container_slider_image.xml" value="0.35104166666666664" />
+        <entry key="..\:/Android Studio/MyShowsApp/app/src/main/res/layout/item_container_slider_image.xml" value="0.2" />
         <entry key="..\:/Android Studio/MyShowsApp/app/src/main/res/layout/item_container_tv_show.xml" value="0.35104166666666664" />
         <entry key="..\:/Android Studio/MyShowsApp/app/src/main/res/layout/layout_episodes_bottom_sheet.xml" value="0.35104166666666664" />
+        <entry key="..\:/Android Studio/MyShowsApp/app/src/main/res/layout/page_1.xml" value="0.15055418719211822" />
+        <entry key="..\:/Android Studio/MyShowsApp/app/src/main/res/layout/page_2.xml" value="0.19975490196078433" />
+        <entry key="..\:/Android Studio/MyShowsApp/app/src/main/res/layout/page_3.xml" value="0.19975490196078433" />
         <entry key="..\:/Users/TJ/AndroidStudioProjects/MyShowsApp/app/src/main/res/layout/activity_search.xml" value="0.35104166666666664" />
         <entry key="..\:/Users/TJ/AndroidStudioProjects/MyShowsApp/app/src/main/res/layout/activity_whatch_list.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/TJ/AndroidStudioProjects/MyShowsApp/app/src/main/res/layout/layout_episodes_bottom_sheet.xml" value="0.25" />

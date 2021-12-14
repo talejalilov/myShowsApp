@@ -14,10 +14,15 @@
         android:theme="@style/Theme.MyShowsApp"
         android:usesCleartextTraffic="true"
         tools:targetApi="m">
-        <activity android:name=".activities.SearchActivity"></activity>
+        <activity
+            android:name=".activities.InformationActivity"
+            android:exported="false" />
+        <activity android:name=".activities.SearchActivity" />
         <activity android:name=".activities.WatchListActivity" />
         <activity android:name=".activities.TvShowDetailActivity" />
-        <activity android:name=".activities.MainActivity">
+        <activity
+            android:name=".activities.MainActivity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

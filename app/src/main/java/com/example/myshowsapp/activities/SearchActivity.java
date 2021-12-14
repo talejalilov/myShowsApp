@@ -81,7 +81,8 @@ public class SearchActivity extends AppCompatActivity implements TVShowListener 
                             });
                         }
                     },800);
-                }else {
+                }else
+                    {
                     tvShows.clear();
                     tvShowsAdapter.notifyDataSetChanged();
                 }
